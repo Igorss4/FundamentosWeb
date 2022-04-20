@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: #22043a;
+}
+
+nav {
+    display: flex;
+    font-size: 2.65rem;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.titulo {
+    display: flex;
+    font-size: 1.45rem;
+    color: #e78dfd;
+    justify-content: space-around;
+
+}
+
+.sobreMim {
+    color: #a33ebc;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 2vw;
+}
+
+.sobre img {
+    border: 2px solid;
+    margin: .7rem;
+    padding: .5rem;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.sobre {
+    min-height: 90vh;
+}
+
+.curiosidades {
+    color: #a33ebc;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 2vw;
+}
+
+.subTitulo {
+    margin: 2vw;
+    color: #e78dfd;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    color: #ffaee3;
+    margin: 1vw;
+    justify-content:right;
+}
+
+p {
+    text-align: center;
+}
+form {
+    color: #a33ebc;
+}
+.tarot img{
+    border: 2px solid;
+    margin: .7rem;
+    padding: .5rem;
+    width: 100px;
+    border-radius: 50%;
+}
+.foto img{
+    border: 3px solid;
+    margin: .7rem;
+    padding: .5rem;
+    border-radius: 50%;
+    width:250px;
+    
+}
+.alinhar{
+    justify-content:center;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-around;
+}
+form {
+    margin: 40px 0;
+    display: block;
+    
+}
+
+fieldset {
+    border: 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    color: #ffaee3;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 75%;
+    margin-bottom: 2rem;
+    resize: none;
+    background-color: transparent;
+   border: 0;
+   border-bottom: 2px solid #e78dfd;
+}
+.rodape {
+    text-align:right;
+}
+.textTarot{
+    color: #a33ebc;
+    display: flex;
+    align-items: center;
+    margin: 2vw;
+    justify-content: space-around;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+        text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #a33ebc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e78dfd;
+  }
+  
+  .button:hover {background-color: #c10cee}
+  
+  .button:active {
+    background-color: #c819f4;
+    box-shadow: 0 5px #e78dfd;
+    transform: translateY(4px);
+  }
+  .banana{
+    border: 2px solid;
+    margin: .7rem;
+    padding: .5rem;
+    width: 350px;
+    border-radius: 50%;
+    justify-content: space-around;
+    
+  }
