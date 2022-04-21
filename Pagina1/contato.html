@@ -11,56 +11,61 @@
 </head>
 
 <body>
-        <header>
-            <nav>
-                <a href="igor.html" class="a">Home</a>
-                <a href="tarot.html" class="a">Tarot</a>
-                <a href="contato.html" class="a">Contato</a>
-            </nav>
-            <div class="titulo">
-                <h1>
-                    Entre em Contato!
-                </h1>
-            </div>
-            <p class="alinhar" >
-                <img src="/assets/img/banana.jpg" alt="Arcano 0 o louco" class="banana">
-            </p>
+    <header>
+        <nav>
+            <a href="igor.html" class="a">Home</a>
+            <a href="tarot.html" class="a">Tarot</a>
+            <a href="contato.html" class="a">Contato</a>
+        </nav>
+        <div class="titulo">
+            <h1>
+                Entre em Contato!
+            </h1>
+        </div>
+        <p class="alinhar">
+            <img src="/assets/img/banana.jpg" alt="Arcano 0 o louco" class="banana">
+        </p>
 
     </header>
     <div>
-            <h3 class="subTitulo">
-                Vamos Conversar !!!
-            </h3>
-        </div>
+        <h3 class="subTitulo">
+            Vamos Conversar !!!
+        </h3>
+    </div>
     <main class="contato">
-    
 
-        <form >
-            <label for="nomepet">Nome</label>
-            <input type="text" id="nomepet" class="input-padrao">
+        <div>
+            <form>
+                <label for="Nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" onkeyup="validaNome()">
+                <div id="txtNome"></div>
 
+                <label for="Email">E-mail</label>
+                <input type="text" id="email" class="input-padrao" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
 
-            <label for="email">E-mail</label>
-            <input type="text" id="email" class="input-padrao">
+                <label for="Mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="60" rows="2" class="input-padrao" onkeyup="validaMensagem()"></textarea>
+                <div id="txtMensagem"></div>
 
-
-            <label for="Telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
-
-
-            <label for="mensagem">Mensagem</label><br>
-            <textarea id="mensagem" cols="60" rows="1" class="input-padrao">
-             </textarea>
-
-
-             <button class="button">Enviar</button>
-        </form>
+                <button class="button" onclick="enviar()">Enviar</button>
+            </form>
+        </div>
     </main>
 
     <footer>
+        <div class="logoSocial">
+            <a href="https://www.linkedin.com/in/igor-santos-8a6374189/" target="_blank"><img
+                    src="/assets/img/linkedin.png" alt="Logo do linkedin"></a>
+            <a href="https://www.instagram.com/eu_por.aq/" target="_blank"><img src="/assets/img/insta.png"
+                    alt="Logo do instagram"></a>
+            <a href="https://github.com/Igorss4" target="_blank"><img src="/assets/img/github.png"
+                    alt="Logo do github"></a>
+        </div>
         <p class="rodape"> &copy; Copyright Igor S Santos - 2022</p>
     </footer>
     </div>
+    <script src="/assets/script/script.js"></script>
 </body>
 
 </html>
